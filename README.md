@@ -1,6 +1,6 @@
 Document Parser for Specific info. Uses OpenAI api to search for themes, topics, ideas in documents and then exports organized .csv reports which can easily be compiled into a database for analysis. 
 This is set up for chunking up .txt files in 500 word blocks, feeding them to a "custom prompted gpt" getting the response in the form of a report and outputted as a .csv file which can easily be compiled into a database for later analysis. No limit on ingestible files but they must be .txt files. 
-Special note: Unicode and custom characters can throw it off and stop process so it is best to 1) convert all docs (e.g. pdfs) to pain txt files and strip all non custom characters from document title and body text.
+Special note: Unicode and custom characters can throw it off and stop process so it is best to convert all docs (e.g. pdfs) to plain txt files and strip all non custom characters from document title and body text. Use Open-Interpreter for this if you dont know how pip install open-interpreter (make sure to find your own openai api).
 
 
 To run: 1) add your own API key to the .env 
